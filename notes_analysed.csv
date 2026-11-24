@@ -1,0 +1,46 @@
+note_id,appointment_id,root_cause,confidence,summary,recommended_action,validation_status,raw_response
+N001,A0872,,,,,invalid,
+N002,A0897,distance_or_transport,0.95,"Patient lives far from the clinic, could not find morning transport, and considered the location too distant for a routine check-up.",Offer telehealth options for routine check-ups to accommodate patients with long commutes or transportation barriers.,valid,"{
+  ""root_cause"": ""distance_or_transport"",
+  ""confidence"": 0.95,
+  ""summary"": ""Patient lives far from the clinic, could not find morning transport, and considered the location too distant for a routine check-up."",
+  ""recommended_action"": ""Offer telehealth options for routine check-ups to accommodate patients with long commutes or transportation barriers.""
+}"
+N003,A0526,cost_or_fee,0.95,Patient skipped the appointment due to high consultation fees and inquired about potential follow-up discounts.,"Provide information regarding available payment plans, financial assistance, or any applicable follow-up discounts to the patient.",valid,"{
+  ""root_cause"": ""cost_or_fee"",
+  ""confidence"": 0.95,
+  ""summary"": ""Patient skipped the appointment due to high consultation fees and inquired about potential follow-up discounts."",
+  ""recommended_action"": ""Provide information regarding available payment plans, financial assistance, or any applicable follow-up discounts to the patient.""
+}"
+N004,A0926,other,0.0,No note recorded,Re-call patient,skipped_blank,
+N005,A0534,illness_or_emergency,0.95,"Patient experienced a high fever and body ache on the day of the appointment, remaining in bed, and plans to reschedule upon recovery.",Contact the patient to reschedule the appointment once they have fully recovered from their illness.,valid,"{
+  ""root_cause"": ""illness_or_emergency"",
+  ""confidence"": 0.95,
+  ""summary"": ""Patient experienced a high fever and body ache on the day of the appointment, remaining in bed, and plans to reschedule upon recovery."",
+  ""recommended_action"": ""Contact the patient to reschedule the appointment once they have fully recovered from their illness.""
+}"
+N006,A0507,,,,,invalid,
+N007,A0333,forgot_or_no_reminder,0.95,Patient forgot the appointment because no SMS reminder was received and wishes to reschedule.,Verify and update the patient's mobile number in the system and ensure the automated SMS reminder service is functioning correctly.,valid,"{
+  ""root_cause"": ""forgot_or_no_reminder"",
+  ""confidence"": 0.95,
+  ""summary"": ""Patient forgot the appointment because no SMS reminder was received and wishes to reschedule."",
+  ""recommended_action"": ""Verify and update the patient's mobile number in the system and ensure the automated SMS reminder service is functioning correctly.""
+}"
+N008,A0222,distance_or_transport,0.95,"The patient missed the appointment due to a city bus strike, lack of local autos, and the long distance.",Offer telehealth options or assist with alternative transportation arrangements for patients facing distance and transit barriers.,valid,"{
+  ""root_cause"": ""distance_or_transport"",
+  ""confidence"": 0.95,
+  ""summary"": ""The patient missed the appointment due to a city bus strike, lack of local autos, and the long distance."",
+  ""recommended_action"": ""Offer telehealth options or assist with alternative transportation arrangements for patients facing distance and transit barriers.""
+}"
+N009,A0977,forgot_or_no_reminder,0.7,The patient could not be reached after three attempts because their phone was switched off.,Send an automated text message or email reminder to prompt patient confirmation.,valid,"{
+  ""root_cause"": ""forgot_or_no_reminder"",
+  ""confidence"": 0.7,
+  ""summary"": ""The patient could not be reached after three attempts because their phone was switched off."",
+  ""recommended_action"": ""Send an automated text message or email reminder to prompt patient confirmation.""
+}"
+N010,A0596,work_or_schedule,0.95,Patient missed the appointment due to a shift change at the factory and inability to take leave. Prefers Saturday appointments.,Reschedule future appointments for Saturdays and update the patient's schedule preference in the system.,valid,"{
+  ""root_cause"": ""work_or_schedule"",
+  ""confidence"": 0.95,
+  ""summary"": ""Patient missed the appointment due to a shift change at the factory and inability to take leave. Prefers Saturday appointments."",
+  ""recommended_action"": ""Reschedule future appointments for Saturdays and update the patient's schedule preference in the system.""
+}"

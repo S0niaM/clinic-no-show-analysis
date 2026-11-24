@@ -1,7 +1,5 @@
 # CareLoop Clinics — No-Show Guard
 
-**Public GitHub repository:** `PASTE YOUR PUBLIC GITHUB REPOSITORY LINK HERE`
-
 ## Project overview
 
 CareLoop Clinics operates eight outpatient clinics across six Indian cities. This project analyses appointment data to understand where and when no-shows occur, builds a model to identify appointments at higher risk of being missed, and uses Gemini AI to turn call-centre notes into structured reasons. The goal is to help the clinic prioritise follow-up calls and make better use of appointment slots.
